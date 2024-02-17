@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  #poll-container {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+
+  #members-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .member-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+  }
+
+  .member-item:hover {
+    background-color: #f9f9f9;
+  }
+
+  .delete-btn {
+    color: #e74c3c;
+    cursor: pointer;
+  }
+
+  .vote-btn {
+    background-color: #3498db;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
